@@ -1,0 +1,402 @@
+p {
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(255, 166, 0);
+}
+
+div#interface {
+    width: 1800px;
+    margin: 20px, auto, 0px, auto;
+}
+
+img {
+    margin-left: 80px;
+}
+
+img#fotocapa {
+    position: absolute;
+}
+
+
+h1 {
+    font-family: Arial;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+h2 {
+    font-family: Arial;
+    color: #3b3a3a;
+    text-align: center;
+    font-size: 24px;
+}
+
+h2#mapinhas {
+    background-color: rgb(255, 217, 0) ;
+    color:black ;
+}
+
+header#cabecalho h1 {
+    margin-bottom: 0px;
+    /*para juntar o titulo com o subtitulo*/
+}
+
+header#cabecalho h2 {
+    margin-top: 0px;
+    /*para juntar o titulo com o subtitulo*/
+}
+
+/*header#cabecalho {
+    height: 100px;
+    background: url("../imagens/cslogo3.png") no-repeat; (Colocar imagem no fundo do cabeçalho)
+}*/
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+
+figure.foto-legenda img {
+    width: 20%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+}
+
+figure#agentes {
+    position: relative;
+    padding-right: 1%;
+    margin-right: 70%;
+    padding-bottom: 30px;
+    top: -740px;
+    height: 0px;
+    
+}
+
+figure.agentestr {
+    position: relative;
+    padding-left: 1%;
+    margin-left: 70%;
+    top: -725px;
+    height: 0px;
+}
+
+/*figure.tr img {
+    position: absolute;
+    align-items: end;
+}*/
+
+
+h1.navegar {
+    text-align: start;
+    font-size: 20px;
+}
+
+/*Formatação do menu*/
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    position: absolute;
+    top: -20px;
+    left: 2px;
+}
+
+nav#menu li {
+    display: inline-block;
+    text-transform: uppercase;
+    /*Deixar em letra maiuscula*/
+    background-color: rgb(255, 217, 0);
+    padding: 10px;
+    margin: 2px;
+}
+
+nav#menu li :hover {
+    background-color: #f78c00;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: #000;
+    text-decoration: none;
+    /*Para coolocar ou tirar linha nas palavras*/
+}
+
+nav#menu a :hover {
+    color: black;
+    /*Cor da letra quando mouse passar em cima*/
+    text-decoration: none;
+}
+
+table#tabela {
+    position: relative;
+    border: 1px solid #000;
+    border-spacing: 0px;
+    margin-left: 32%;
+    background-color: rgb(255, 217, 0);
+
+}
+
+table#tabela td {
+    border: 1px solid #000;
+    padding: 15px;
+    text-align: center;
+    font-family: Comic Sans MS;
+
+}
+
+td#categ {
+    font-size: 24px;
+}
+
+td#guns {
+    font-size: 20px;
+}
+
+iframe#sk {
+    margin-left: 33%;
+}
+
+footer#rodape {
+    position: relative;
+    border-top: 1px solid #000;
+
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
+footer#rodape a {
+    color: white;
+}
+
+img.icone {
+    width: 700px;
+    height: 700px;
+    
+}
+
+figure.ak47 {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    margin-left: 38%;
+}
+
+figure.ak471 {
+    width: 160px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    margin-left: 31%;
+}
+
+figure.m4 {
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    margin-left: 34%;
+
+}
+
+figure.awp {
+    width: 260px;
+    height: 280px;
+    align-items: center;
+    text-align: center;
+    margin-left: 28%;
+
+}
+
+figure.usp {
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    text-align: center;
+    margin-left: 34%;
+
+}
+
+figure.glock {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    margin-left: 38%;
+
+}
+
+figure.mirage {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+}
+
+figure.inferno {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+    
+}
+
+figure.nuke {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+    
+}
+
+figure.overpass {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+}
+
+figure.ancient {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+}
+
+figure.anubis {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+}
+
+figure.dust2 {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+}
+
+figure.vertigo{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+}
+
+figure.navi{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+}
+
+figure.astralis{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+}
+
+figure.furia{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+}
+
+figure.nip{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+}
+
+figure.cloud9{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+}
+
+figure.heroic{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+}
+
+figure.vp{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+}
+
+figure.g2{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+}
+
+figure.liquid{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+}
+
+figure.faze{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 42.7%;
+}
+
+section#corpo {
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+
+section#conteudo {
+    width:1000px;
+    margin: auto;
+}
+
