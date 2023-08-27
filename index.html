@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tudo sobre o Counter Strike</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" media='screen' href="../Design/main.css">
+    <script src='../Func/index.js'></script>
+
+</head>
+
+<body>
+    <div id="interface">
+
+        <header id="cabecalho">
+            <hgroup>
+                <h1> Counter Strike History </h1>
+                <h2> Pai dos FPSs </h2>
+            </hgroup>
+
+            <img id="icone" src="../imagens/logohome.png" height="100px" width="100px" />
+
+            <nav id="menu"> <!--Criando um menu de botoes-->
+                <h1 class="navegar">Menu principal</h1><!---->
+                <ul type="disc"><!---->
+                    <li><a href="../Home/index.html"><b>Home</b></a></li><!---->
+                    <li onmouseover="mudaFoto('../imagens/assiimov.png')"
+                        onmouseout="mudaFoto('../imagens/logohome.png')"><a
+                            href="../PrincipaisArmas/mainweapons.html"><b> Principais Armas</b></a></li><!---->
+                    <li onmouseover="mudaFoto('../imagensmaps/mirage.webp')"
+                        onmouseout="mudaFoto('../imagens/logohome.png')"><a href="../Mapas/fotos.html"><b>Mapas</b></a>
+                    </li><!---->
+                    <li onmouseover="mudaFoto('../imagens/tacamajor1.png')"
+                        onmouseout="mudaFoto('../imagens/logohome.png')"><a href="../Contact/fale-conosco.html"><b>Cenário Competitivo</b></a></li><!---->
+                </ul><!---->
+            </nav><!---->
+        </header>
+
+        <figure class="foto-legenda">
+            <img src="../imagens/counter-strike-2ft.jpg" onclick="ftcs()" />
+        </figure>
+
+
+        <!--<figure class="bonecotr">
+            <img id="tr" src="../imagens/bonecotr.png">
+        </figure>-->
+
+        <h2 style="text-align: center;" id="mapinhas"> O que é o Counter Strike?</h2>
+        <p><b>O Counter-Strike (CS)</b> é um jogo de tiro em primeira pessoa que foi <i>lançado em 1999</i> e desde
+            então se tornou um
+            dos jogos mais populares do mundo. O jogo é jogado online em equipes de terroristas e antiterroristas, cada
+            um com seus próprios objetivos e armas. O objetivo do jogo é eliminar a equipe adversária ou cumprir
+            objetivos específicos, dependendo do modo de jogo escolhido.</p>
+
+        <p><a href="https://www.counter-strike.net/news" target="_blank">Counter Strike</a> tem uma grande comunidade de
+            jogadores competitivos, com muitos torneios profissionais acontecendo
+            regularmente em todo o mundo. O jogo é conhecido por sua jogabilidade estratégica, que exige habilidade,
+            trabalho em equipe e coordenação para ter sucesso. A estratégia é fundamental para jogar CS, pois os
+            jogadores devem ser capazes de coordenar ataques e defesas para vencer..</p>
+
+        <p> O jogo também é conhecido por suas mecânicas de economia, que permitem que os jogadores comprem armas e
+            equipamentos para suas equipes. O dinheiro é ganho ao vencer rounds, matar inimigos e completar objetivos, e
+            pode ser gasto em armas, granadas e outros equipamentos. Essa mecânica adiciona um elemento estratégico
+            adicional ao jogo, pois os jogadores devem gerenciar suas finanças cuidadosamente para garantir que tenham
+            as armas certas para cada situação.</p>
+        <br>
+
+        <figure class="foto-legenda">
+            <img src="../imagens/cs-go-001ft.jpg" onclick="bonecotrak()" />
+        </figure>
+
+        <h2 style="text-align: center;" id="mapinhas">Como se iniciou o sucesso do Counter-Strike?</h2>
+        <p><b>O sucesso do Counter-Strike (CS)</b> pode ser atribuído a vários fatores, mas uma das principais razões é
+            sua
+            jogabilidade estratégica e desafiadora. O jogo foi criado por Minh "Gooseman" Le e Jess "Cliffe" Cliffe, que
+            originalmente desenvolveram o CS como um mod (modificação) do jogo Half-Life da <a
+                href="https://www.valvesoftware.com/pt-br/" target="_blank">Valve Corporation.</a></p>
+
+        <p>O mod inicialmente foi lançado em 1999 e se tornou popular rapidamente, principalmente entre jogadores que
+            procuravam um jogo de tiro em primeira pessoa mais tático e realista. A jogabilidade envolvia não apenas
+            habilidade de tiro, mas também estratégia, coordenação de equipe e economia de recursos. O jogo se tornou um
+            sucesso entre jogadores que gostavam de desafios mais complexos e que exigiam trabalho em equipe e
+            habilidades de liderança.</p>
+
+        <p>O sucesso do CS também pode ser atribuído à sua comunidade de jogadores. Os jogadores criaram suas próprias
+            comunidades online, desenvolveram seus próprios mapas e mods e organizaram seus próprios torneios e ligas.
+            Essa comunidade crescente ajudou a manter o jogo relevante e popular, mesmo após o lançamento de outros
+            jogos de tiro em primeira pessoa.</p>
+
+
+        <figure class="foto-legenda">
+            <img src="../imagens/trestrs.webp" id="trisal" onmousemove="trocarTrio()" onmouseout="destrocarTrio()" />
+        </figure>
+
+        <h2 id="mapinhas">Itens mais utilizados</h2>
+        <table id="tabela">
+            <tr>
+                <td id="categ" rowspan="2">Rifles</td>
+                <td id="guns">AK-47</td>
+            <tr>
+                <td id="guns"> M4A4/M4A1-S </td>
+            </tr>
+            </tr>
+
+            <tr>
+                <td id="categ" rowspan="2">Snipers</td>
+                <td id="guns"> AWP</td>
+            <tr>
+                <td id="guns"> SSG-18</td>
+            </tr>
+            </tr>
+
+            <tr>
+                <td id="categ" rowspan="3">Pistolas </td>
+                <td id="guns"> Desert Eagle </td>
+            <tr>
+                <td id="guns"> Tec-9 </td>
+            </tr>
+            <tr>
+                <td id="guns"> Five-Seven </td>
+            </tr>
+            </tr>
+
+            <tr>
+                <td id="categ" rowspan="3">Sub-Metralhadoras </td>
+                <td id="guns"> MP9 </td>
+            <tr>
+                <td id="guns"> UMP </td>
+            </tr>
+            <tr>
+                <td id="guns"> MAC-10 </td>
+            </tr>
+            </tr>
+
+            <tr>
+                <td id="categ">Granadas </td>
+                <td id="guns"> FlashBang, Molotov, HE, Smoke, Decoy </td>
+            </tr>
+
+
+        </table>
+
+        <figure class="agentestr">
+            <img src="../imagens/trmac10.png" id="troca" onmousemove="trocarTr()" onmouseout="destrocarTr()" />
+        </figure>
+
+        <figure id="agentes">
+            <img src="../imagens/ctp90.png" id="trocar" onmousemove="trocarBoneco()" onmouseout="destrocarBoneco()" />
+        </figure>
+
+        <h2 style="text-align: center;" id="mapinhas">Como o Counter-Strike chegou no Brasil?</h2>
+        <p><b>No Brasil</b>, o Counter-Strike ganhou popularidade principalmente a partir dos anos 2000, quando os jogos
+            online
+            começaram a se popularizar no país. A facilidade de acesso à internet e o crescimento dos cibercafés foram
+            fatores importantes para disseminar o jogo entre os brasileiros.</p>
+
+        <p>Além disso, o Counter-Strike também se beneficiou da formação de uma comunidade ativa de jogadores e da
+            realização de campeonatos e eventos de eSports no Brasil. O jogo despertou o interesse de muitos jogadores
+            brasileiros, que começaram a competir em torneios locais e internacionais, conquistando reconhecimento e
+            elevando ainda mais a popularidade do jogo.</p>
+
+        <p>Com o tempo, o Counter-Strike se consolidou como um dos jogos mais populares no Brasil, com uma base de
+            jogadores ativa e uma cena competitiva robusta. Atualmente, o país possui equipes profissionais de
+            Counter-Strike que competem em torneios nacionais e internacionais, e o jogo continua sendo uma referência
+            no cenário dos eSports brasileiros.</p>
+
+        
+
+        <figure class="foto-legenda">
+            <img src="../imagens/cslogo3.png" onclick="logo()" />
+        </figure>
+
+        <footer id="rodape">
+            <p>Copiright &copy; 2023 - by Emerson Aquino<br> <!--simvbolo do copyright-->
+                <a href="https://www.instagram.com/mercinho.aquino/" target="_blank">Instagram | <a
+                        href="https://linkedin.com/in/emerson-aquino-241033266/" target="_blank">Linkedln
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
