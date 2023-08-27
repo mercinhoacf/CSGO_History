@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tudo sobre o Counter Strike</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" media='screen' href="../Design/main.css">
+
+    <script src='../Func/index.js'></script>
+
+</head>
+
+<body>
+
+
+
+    <div id="interface">
+
+        <header id="cabecalho">
+            <hgroup>
+                <h1> Conheça os Mapas</h1>
+                <h2> Os mais famosos </h2>
+            </hgroup>
+
+
+
+            <img id="icone" src="../imagens/logohome.png" height="100px" width="100px" />
+
+            <nav id="menu"> <!--Criando um menu de botoes-->
+                <h1 class="navegar">Menu principal</h1><!---->
+                <ul type="disc"><!---->
+                    <li onmouseover="mudaFoto('../imagens/logohome.png')"
+                        onmouseout="mudaFoto('../imagensmaps/mirage.webp')"><a href="../Home/index.html"><b>Home</b></a>
+                    </li><!---->
+                    <li onmouseover="mudaFoto('../imagens/assiimov.png')"
+                        onmouseout="mudaFoto('../imagensmaps/mirage.webp')"><a
+                            href="../PrincipaisArmas/mainweapons.html"><b>
+                                Principais Armas</b></a></li><!---->
+                    <li onmouseover="mudaFoto('../imagensmaps/mirage.webp')"
+                        onmouseout="mudaFoto('../imagensmaps/mirage.webp')"><a
+                            href="../Mapas/fotos.html"><b>Mapas</b></a>
+                    </li><!---->
+                    <li onmouseover="mudaFoto('../imagens/tacamajor1.png')"
+                        onmouseout="mudaFoto('../imagensmaps/mirage.webp')"><a
+                            href="../Contact/fale-conosco.html"><b>Cenário Competitivo</b></a></li>
+                </ul><!---->
+            </nav><!---->
+        </header>
+
+
+        <h2 id="mapinhas">MIRAGE</h2>
+        <figure class="mirage">
+            <img src="../imagensmaps/mirage.webp" id="fallen" width="100px" height="100px" onmousemove="mudaMapa()" onmouseout="destrocarMapa()"/>
+        </figure>
+
+        <p> A Mirage é um mapa clássico no Counter-Strike: Global Offensive (CS:GO). Com sua temática urbana e cenários
+            do
+            Oriente Médio, é um dos favoritos entre jogadores e espectadores. A jogabilidade equilibrada e as múltiplas
+            rotas oferecem oportunidades estratégicas para ambas as equipes. Os jogadores devem estar atentos aos
+            avanços
+            táticos inimigos e aproveitar os pontos de vantagem disponíveis. Com sua atmosfera vibrante e jogo intenso,
+            a
+            Mirage continua sendo um dos mapas mais populares e disputados no CS:GO.</p>
+
+        <h2 id="mapinhas">INFERNO</h2>
+        <figure class="inferno">
+            <img src="../imagensmaps/inferno.webp" id="ferGod" width="100px" height="100px" onmousemove="trocarDnv()" onmouseout="destrocarDnv()"/>
+        </figure>
+        <p> A Inferno é um dos mapas clássicos e icônicos do Counter-Strike: Global Offensive (CS:GO). Com sua
+            ambientação
+            em uma vila mediterrânea, proporciona um cenário único e imersivo. Com diversas áreas-chave, como o Bairro,
+            a
+            Igreja e o Poço, a Inferno desafia as equipes a trabalharem em conjunto e desenvolverem estratégias
+            eficientes.
+            A comunicação e o controle do mapa são essenciais para obter sucesso. Com sua atmosfera tensa e jogabilidade
+            desafiadora, a Inferno é um mapa amado por jogadores profissionais e fãs do CS:GO. </p>
+
+        <h2 id="mapinhas">NUKE</h2>
+        <figure class="nuke">
+            <img src="../imagensmaps/nuke.webp" id="taco" width="100px" height="100px" onmousemove="trocarDnv1()" onmouseout="destrocarDnv1()">
+        </figure>
+        <p>A Nuke é um mapa emblemático no cenário competitivo do Counter-Strike: Global Offensive (CS:GO). Sua
+            atmosfera
+            industrial e apocalíptica traz uma sensação única ao jogo. Com dois andares e uma série de corredores
+            estreitos,
+            a Nuke exige uma coordenação tática excepcional entre as equipes. A disputa pelo controle dos bombsites A e
+            B é
+            intensa, tornando cada rodada emocionante. Com suas características únicas e estratégias desafiadoras, a
+            Nuke
+            continua sendo um mapa clássico e preferido por jogadores que buscam um desafio intenso no CS:GO.</p>
+
+        <h2 id="mapinhas">OVERPASS</h2>
+        <figure class="overpass">
+            <img src="../imagensmaps/overpass.webp" id="fnx" width="100px" height="100px" onmousemove="trocarDnv2()" onmouseout="destrocarDnv2()">
+        </figure>
+        <p>A Overpass é um mapa icônico no cenário competitivo do Counter-Strike: Global Offensive (CS:GO). Com sua
+            temática urbana e ambientação de um banheiro abandonado, o mapa oferece um desafio estratégico único. Com
+            múltiplas rotas e áreas de confronto, como o Banheiro, o Canal e o Playground, a Overpass exige um jogo de
+            equipe coordenado e uma boa compreensão tática do mapa. A disputa pelo controle dos bombsites A e B é
+            intensa,
+            criando momentos de tensão e emoção. Com sua jogabilidade dinâmica e visual impressionante, a Overpass é
+            apreciada tanto por jogadores profissionais quanto por fãs do CS:GO.</p>
+
+
+        <h2 id="mapinhas">VERTIGO</h2>
+        <figure class="vertigo">
+            <img src="../imagensmaps/vertigo.webp" id="boltz" width="100px" height="100px" onmousemove="trocarDnv3()" onmouseout="destrocarDnv3()" >
+        </figure>
+        <p> A Vertigo é um mapa único e desafiador no Counter-Strike: Global Offensive (CS:GO). Com seu layout vertical,
+            proporciona um estilo de jogo diferenciado, exigindo táticas adaptadas e rápidas rotações entre os andares.
+            O
+            controle dos elevadores e das rampas é crucial para garantir vantagem estratégica. Os confrontos intensos
+            nos
+            corredores estreitos e as áreas de visibilidade limitada tornam a Vertigo uma experiência eletrizante para
+            os
+            jogadores. Com sua arquitetura urbana e jogabilidade complexa, a Vertigo adiciona diversidade ao competitivo
+            do
+            CS:GO, desafiando as equipes a se adaptarem a um ambiente vertical e imprevisível.</p>
+
+        <h2 id="mapinhas">ANUBIS</h2>
+        <figure class="anubis">
+            <img src="../imagensmaps/anubis.webp" id="cold" width="100px" height="100px" onmousemove="trocarDnv4()" onmouseout="destrocarDnv4()">
+        </figure>
+        <p>A Anubis é um mapa relativamente novo e desafiador no Counter-Strike: Global Offensive (CS:GO). Com sua
+            temática
+            egípcia e arquitetura intricada, oferece uma experiência de jogo única. Os corredores estreitos e as áreas
+            de
+            confronto exigem uma comunicação precisa e estratégias bem elaboradas. O controle das áreas-chave, como o
+            Templo
+            e as Ruínas, é fundamental para o sucesso das equipes. Com sua atmosfera misteriosa e jogabilidade
+            estratégica,
+            a Anubis é um mapa que vem ganhando popularidade e atraindo jogadores que buscam novos desafios no CS:GO.
+        </p>
+
+
+        <h2 id="mapinhas">DUST II</h2>
+        <figure class="dust2">
+            <img src="../imagensmaps/dust2.webp" id="gaules" width="100px" height="100px" onmousemove="trocarDnv5()" onmouseout="destrocarDnv5()">
+        </figure>
+        <p> A Dust 2 é um mapa icônico e lendário no Counter-Strike: Global Offensive (CS:GO). Com seu cenário desértico
+            e
+            arquitetura marcante, é um dos mapas mais reconhecidos e jogados do jogo. Com seu layout equilibrado,
+            oferece
+            diversas oportunidades estratégicas para ambas as equipes. Os confrontos intensos nos corredores estreitos e
+            o
+            jogo tático nos bombsites A e B mantêm os jogadores constantemente engajados. Com sua atmosfera clássica e
+            jogabilidade dinâmica, a Dust 2 continua sendo um mapa querido e preferido por jogadores de todas as
+            habilidades
+            no CS:GO.</p>
+
+
+        <h2 id="mapinhas">ANCIENT</h2>
+        <figure class="ancient">
+            <img src="../imagensmaps/ancient.webp" id="nak" width="100px" height="100px" onmousemove="trocarDnv6()" onmouseout="destrocarDnv6()">
+        </figure>
+        <p> A Ancient é um mapa recentemente introduzido no Counter-Strike: Global Offensive (CS:GO). Com sua
+            ambientação
+            exótica e ruínas antigas, oferece uma atmosfera única para os jogadores. Com múltiplas rotas e áreas
+            estratégicas, como o Templo e a Ponte Suspensa, a Ancient desafia as equipes a desenvolverem táticas
+            inovadoras.
+            A jogabilidade equilibrada e os confrontos intensos tornam cada rodada emocionante. Com sua adição
+            refrescante
+            ao competitivo do CS:GO, a Ancient tem se mostrado um mapa empolgante para jogadores e espectadores.</p>
+
+
+
+        <footer id="rodape">
+            <p>Copiright &copy; 2023 - by Emerson Aquino<br> <!--simvbolo do copyright-->
+                <a href="https://www.instagram.com/mercinho.aquino/" target="_blank">Instagram | <a
+                        href="https://linkedin.com/in/emerson-aquino-241033266/" target="_blank">Linkedln
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
